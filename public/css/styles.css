@@ -12,7 +12,7 @@
 
     /* Font size */
     --paragraph : 12px;
-    --tittle : 24px;
+    --tittle : 16px;
     --prices : 18px;
     --descriptions : 16px;
 }
@@ -68,7 +68,25 @@ header .cuotas {
 
 /* FOOTER */
 footer {
-    font-size: var(--paragraph);
     padding-top: 40px;
     padding-bottom: 15px;
+    text-align: center;
+}
+footer .copy {
+    color: var(--darkGrey);
+    font-size: var(--paragraph);
+    text-align: left;
+    padding-left: 15px;
+}
+footer i {
+    color: var(--lightBlue);
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+footer p {
+    font-size: var(--paragraph);
+    padding: 0px 30px 30px 30px;
+}
+footer h5 {
+    font-size: var(--tittle);
 }
