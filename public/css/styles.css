@@ -1,3 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+:root {
+    --yellow : #EAC926;
+    --blue : #03264c;
+    --lightBlue : #1259c3;
+    --darkGrey : #666;
+    --lightGrey : #ebebeb;
+    --green : #39b54a;
+
+    /* Fonst */
+    --font-primary: 'Roboto', sans-serif;
+
+    /* Font size */
+    --paragraph : 12px;
+    --tittle : 24px;
+    --prices : 18px;
+    --descriptions : 16px;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
 .banner {
     display: none;
+}
+
+/* HEADER */
+header {
+    background-color: var(--yellow);
+}
+.logo {
+    padding-top: 25px;
+    padding-left: 25px;
+    width: 150px;    
 }
