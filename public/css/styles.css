@@ -1,4 +1,4 @@
-/*@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 :root {
   --yellow: #eac926;
   --blue: #03264c;
@@ -7,10 +7,10 @@
   --lightGrey: #ebebeb;
   --green: #39b54a;
 
-  /* Fonst *//*
-  --font-primary: "Roboto", sans-serif;*/
+  /* Fonst */
+  --font-primary: "Roboto", sans-serif;
 
-  /* Font size */ /*
+  /* Font size */
   --paragraph: 12px;
   --tittle: 16px;
   --prices: 18px;
@@ -32,9 +32,9 @@ body {
 }
 .pb-15 {
   padding-bottom: 15px;
-}*/
+}
 
-/* HEADER */ /*
+/* HEADER */
 header {
   background-color: var(--yellow);
   padding-bottom: 20px;
@@ -65,8 +65,8 @@ header .cuotas {
 .search-bar input {
   margin-left: 15px;
 }
-*/
-/* FOOTER *//*
+
+/* FOOTER */
 footer {
   padding-top: 40px;
   padding-bottom: 15px;
@@ -90,4 +90,3 @@ footer p {
 footer h5 {
   font-size: var(--tittle);
 }
-*/
