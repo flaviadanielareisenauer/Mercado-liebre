@@ -12,9 +12,10 @@
 
   /* Font size */
   --paragraph: 12px;
-  --tittle: 16px;
+  --tittle: 24px;
   --prices: 18px;
   --descriptions: 16px;
+  --discount: 16px;
 }
 * {
   margin: 0;
